@@ -1,22 +1,17 @@
 #!/bin/bash
 /*
- * File: 101-quote.c
- * Auth: Brennan D Baraban
+ * File: 4-puts.c
+ * Auth:N C <travis.me@icloud.com
  */
 
 #include <unistd.h>
 
 /**
- * main - Prints "and that piece of art is useful" - Dora Korpar, 2015-10-19",
- *                followed by a new line, to standard error.
- *
- * Return: Always 1.
+ * main - Prints "Programming is like building a multilingual puzzle *
+ * Return: Always 0.
  */
 int main(void)
 {
-	write(2,
-	      "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",
-	      59);
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 
-	return (1);
-}
