@@ -1,10 +1,10 @@
-#!/bin/bash
+
 /*
  * File: 4-puts.c
- * Auth:N C <travis.me@icloud.com
+ * Auth:N C <trabis.me@icloud.com
  */
 
-#include <unistd.h>
+#include <stdio.h>
 
 /**
  * main - Prints "Programming is like building a multilingual puzzle *
