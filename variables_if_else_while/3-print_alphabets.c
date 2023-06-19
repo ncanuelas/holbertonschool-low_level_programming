@@ -1,6 +1,6 @@
 /*
  * File: 3-print_alphabets.c
- * Auth: Nixaliz CT 
+ * Auth: Nixaliz CT
  */
 
 #include <stdio.h>
