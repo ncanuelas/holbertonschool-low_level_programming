@@ -1,34 +1,24 @@
 /*
- * File: 100-print_comb3.c
- * Auth: Nixaliz CT
+ * File: 3-print_alphabets.c
+ * Auth: Nixaliz CT 
  */
 
 #include <stdio.h>
 
 /**
- * main - Prints all possible combinations of two different digits,
- *        in ascending order, separated by a comma followed by a space.
+ * main - Prints the alphabet in lowercase, and then in uppercase.
  *
  * Return: Always 0.
  */
 int main(void)
 {
-	int digit1, digit2;
+	char letter;
 
-	for (digit1 = 0; digit1 < 9; digit1++)
-	{
-i		for (digit2 = digit1 + 1; digit2 < 10; digit2++)
-		{
-			putchar((digit1 % 10) + '0');
-			putchar((digit2 % 10) + '0');
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
 
-			if (digit1 == 8 && digit2 == 9)
-				continue;
-			
-			putchar(',');
-			putchar(' ');
-		}
-	}
+	for (letter = 'A'; letter <= 'Z'; letter++)
+		putchar(letter);
 
 	putchar('\n');
 
