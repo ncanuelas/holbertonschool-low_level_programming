@@ -1,3 +1,7 @@
+/*
+ * File: 2-print_alphabet_x10.c
+ * Auth: Nixaliz CT
+ */
 
 #include "main.h"
 
