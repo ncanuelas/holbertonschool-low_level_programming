@@ -1,9 +1,5 @@
-/*
- * File: 0-isupper.c
- * Auth: Nixaliz CT
- */
-
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _isupper - Checks for uppercase characters.
