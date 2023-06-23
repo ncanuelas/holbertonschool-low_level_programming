@@ -1,3 +1,7 @@
+/*
+ * File: 3-print_numbers.c
+ * Auth: Nixaliz CT
+ */
 
 #include "main.h"
 
@@ -9,7 +13,7 @@ void print_numbers(void)
 	int num;
 
 	for (num = 0; num <= 9; num++)
-	_putchar((num % 10) + '0');
+		_putchar((num % 10) + '0');
 
 	_putchar('\n');
 }
