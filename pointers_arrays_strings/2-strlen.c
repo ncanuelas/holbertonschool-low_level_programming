@@ -7,11 +7,13 @@
  * Return: The length of @str.
  */
 int _strlen(const char *s)
+
 {
-	size_t length = 0;
+	int c = 0;
 
-	while (*str++)
-	length++;
+	while (; *s != '\0'; *s++)
+	{
+		c++;
+	}
+	return (c);
 
-	return (length);
-}
