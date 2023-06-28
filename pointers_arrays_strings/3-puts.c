@@ -2,15 +2,15 @@
 #include <stdio.h>
 
 /**
- * _puts - Prints a string to stdout.
- * @str: The string to be printed.
+ * _puts - prints a string, followed by a new line
+ * @str: the string to print
  */
 
 void _puts(char *str)
 {
-	for (; *str != '0'; str++)
+	for (; *str != '\0'; str++)
 	{
-	putchar(*str);
+	_putchar(*str);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
