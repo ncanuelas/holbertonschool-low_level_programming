@@ -1,10 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *
  *function that reverses the content of an array of integers
+ *@a: an array of integers
+ *@n: the number of elements to swap
  */
- void reverse_array(int *a, int n)
+void reverse_array(int *a, int n)
 {
 	int tmp, index;
 
