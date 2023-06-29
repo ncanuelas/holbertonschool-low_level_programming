@@ -1,8 +1,11 @@
 #include "main.h"
 
-/**char cap_string(charstr)
- *
+/**
+ * cap_string - Write a function that capitalizes all words of a string
+ * @str: string
+ * Return: str
  */
+char *cap_string(char *str)
 {
 	int i, c;
 	int trigger;
