@@ -1,7 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *function that reverses the content of an array of integers
  *print_array - print an array of integers
  *@a: an array of integers
  *@n: the number of elements to swap
