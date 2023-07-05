@@ -2,8 +2,8 @@
 #include "main.h"
 /**
  * is_prime - Write a function that returns 1, otherwise return 0
- * @n: int number
  * @divisor: divisor1
+ * @n: string
  * Return: 1 if prime, 0 otherwise
  */
 
@@ -21,9 +21,9 @@ int is_prime(int n, int divisor)
 }
 
 /**
- *is_prime_number -Write a funtion that return 1 if the unput integer
- *@n: string
- *Return  1 if prime, 0 otherwise
+ * is_prime_number - write a fucntion that returns 0 if the input integer
+ * @n: string
+ * Return: 1 if prime, 0 otherwise
  */
 
 int is_prime_number(int n)
